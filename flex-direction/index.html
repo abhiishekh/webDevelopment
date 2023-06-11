@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            color: white;
+            border: 5px solid yellow;
+            display: flex;
+            flex-direction: column;
+        }
+        .red{background-color: red;}
+        .orange{background-color: orange;}
+        .yellow{background-color: yellow;}
+        .green{background-color: green;}
+        .indigo{background-color: indigo;}
+        .purple{background-color: purple;}
+        /* .select{
+            flex-basis: 100px;
+        } */
+        .container >*{
+            flex-basis: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red select">Red</div>
+        <div class="orange select">Orange</div>
+        <div class="yellow select">Yellow</div>
+        <div class="green select">green</div>
+        <div class="indigo select">indigo</div>
+        <div class="purple select">Purple</div>
+    </div>
+    
+</body>
+</html>

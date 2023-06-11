@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pricing-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 2rem;
+        }
+        .pricing-plan{
+            background-color: #f2f2f2;
+            padding: 20px;
+            flex: 1;
+            border-radius: 5px;
+            /* align-items: center; */
+            text-align: center;
+        }
+        .plan-title{
+            font-weight:bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .plan-price{
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .plan-feature{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .plan-feature li{
+            margin-bottom: 20px;
+        }
+        .plan-btn{
+            background-color: orangered;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        @media (max-width:1250px) {
+            .pricing-container{
+           flex-direction: column;
+           height: 100%;
+        }
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="pricing-plan">
+            <div class="plan-title">Basic</div>
+            <div class="plan-price">$9.90/Month</div>
+            <ul class="plan-feature">
+                <li>100gb Storage</li>
+                <li>1 user</li>
+                <li>support</li>
+            </ul>
+            <button class="plan-btn">Sign up</button>
+
+        </div>
+        <div class="pricing-plan">
+            <div class="plan-title">Basic</div>
+            <div class="plan-price">$9.90/Month</div>
+            <ul class="plan-feature">
+                <li>100gb Storage</li>
+                <li>1 user</li>
+                <li>support</li>
+            </ul>
+            <button class="plan-btn">Sign up</button>
+        </div>  <div class="pricing-plan">
+            <div class="plan-title">Basic</div>
+            <div class="plan-price">$9.90/Month</div>
+            <ul class="plan-feature">
+                <li>100gb Storage</li>
+                <li>1 user</li>
+                <li>support</li>
+            </ul>
+            <button class="plan-btn">Sign up</button>
+
+        </div>
+    </div>
+</body>
+</html>
