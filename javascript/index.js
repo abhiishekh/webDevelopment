@@ -13,6 +13,6 @@
 
 
 // making the word to upper case
- var name = "abhishek";
+//  var name = "abhishek";
 
-console.log(name.toCamelCase());
+// console.log(name.toCamelCase());

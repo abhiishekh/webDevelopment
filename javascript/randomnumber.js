@@ -45,7 +45,7 @@ function printNumber(){
 // printNumber()
 
 var output = [];
-number = 12;
+number = 1;
 function FizzBuzz(){
     if(number%3 === 0){
         if(number % 5 === 0 ){
@@ -67,9 +67,15 @@ function FizzBuzz(){
     console.log(output);
 }
 // FizzBuzz();
-// FizzBuzz();
-// FizzBuzz();
-// FizzBuzz();
+var names = ['abhishek', 'ramesh','kamlesh','ram','naresh'];
+
+function BillPay(){
+    var numberOfPeaople = names.length
+    var Person = Math.random() * numberOfPeaople;
+    var position = Math.floor(Person);
+    console.log(names[position]);
+}
+// BillPay()
 
 
 

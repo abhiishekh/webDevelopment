@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <style>
+        .colorSquare{
+            color:white;
+        }
+        #red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        #green{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        #yellow{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+        #container{
+            /* background-color: black; */
+            display: flex;
+            /* margin-left: 10px; */
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <button class="colorSquare" id="red" value ="red" name = 'hello'>
+        <p id="count">0</p>
+    </button>
+    <button class="colorSquare" id="green"  value ="green" name = 'world'>
+        <p id="count">0</p>
+    </button>
+    <button class="colorSquare" id ="yellow"  value ="yellow" name = '!'>
+        <p id="count">0</p>
+    </button>
+    </div>
+
+    <button id="clear-game">Clear Game</button>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
